@@ -4,6 +4,8 @@
   "description": "Scrape all data from https://www.bacb.com",
   "main": "index.js",
   "scripts": {
+    "start": "npm run scrape",
+    "scrape": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
